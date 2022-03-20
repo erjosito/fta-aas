@@ -276,7 +276,7 @@ export default function Ft3asApp() {
                 <Stack verticalFill styles={stackStyles} tokens={stackTokens}>
                     <Ft3asToolbar
                         isModified={isModified}
-                        onFilter={e => { setShowFilters(true) }}
+                        onFilter={e => { setShowFilters(false) }}
                         onSelectTemplateClick={e => { setShowSelectTemplate(true); }}
                         onDownloadReviewClick={e => { downloadFile(); }}
                         onDownloadCsvClick={e => { downloadCsv(); }}
